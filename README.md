@@ -82,3 +82,10 @@ Music:
 ###### (wait 2 - 3 Month)
 ### SpigotMC: KiwiLetsPlay
 ###### (wait 2 Days)
+
+<br>
+<br>
+
+## How Create own ResourcePack?
+
+[![Watch the video](https://imgur.com/YeuQgFA.png)](https://youtu.be/Jj3p71WQSJk)
