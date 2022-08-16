@@ -8,14 +8,6 @@
 ###### 3. Now reload the server. 
 ###### 4. The plugin should now be displayed green under the active plugins, check with /plugins on your server
 
-## Support:
-### Discord: KIWILETSPLAY#8001
-###### (Wait 24 H)
-### Email: Kiwi@kiwiletsplay.de	
-###### (wait 2 - 3 Month)
-### SpigotMC: KiwiLetsPlay
-###### (wait 2 Days)
-
 <br>
 <br>
 
@@ -80,3 +72,10 @@ Music:
     Album: '-'
 
 ```
+## Support:
+### Discord: KIWILETSPLAY#8001
+###### (Wait 24 H)
+### Email: Kiwi@kiwiletsplay.de
+###### (wait 2 - 3 Month)
+### SpigotMC: KiwiLetsPlay
+###### (wait 2 Days)
