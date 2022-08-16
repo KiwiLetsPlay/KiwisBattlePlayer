@@ -13,5 +13,5 @@
 ###### (Wait 24 H)
 ### Email: Kiwi@kiwiletsplay.de	
 ###### (wait 2 - 3 Month)
-### SpigotMC DM: KiwiLetsPlay
+### SpigotMC: KiwiLetsPlay
 ###### (wait 2 Days)
