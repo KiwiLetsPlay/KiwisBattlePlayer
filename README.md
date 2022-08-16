@@ -88,4 +88,4 @@ Music:
 
 ## How Create own ResourcePack?
 
-[![Watch the video](https://imgur.com/YeuQgFA.png)](https://youtu.be/Jj3p71WQSJk)
+[![Watch the video](https://imgur.com/sv8GJjO.png)](https://youtu.be/Jj3p71WQSJk)
