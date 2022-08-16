@@ -1,13 +1,13 @@
-name: KiwisBattlePlayer
+name: KiwisMusicPlayer
 authors:
   - KiwiLetsPlay
 website: kiwiletsplay.de
-description: Play your favorite music easily via the GUI, use the Minecarft internal music or use the texture pack to add your own music
-main: de.Kiwi.BattlePlayer.Main.main
+description: Play your favorite music easily via the GUI, use the Minecraft internal music or use the texture pack to add your own music
+main: de.Kiwi.MusicPlayer.Main.main
 version: 1.0
 api-version: 1.17
-default-permission: kiwi.BattlePlayer.Use
+default-permission: kiwi.Muisc.Use
 commands:
-  KiwisBattlePlayer:
+  music:
     permission-message: You Dont hav the permissions To Play Music
     description: Open The GUI

@@ -1,12 +1,11 @@
-package de.Kiwi.BattlePlayer.Events;
+package de.Kiwi.MusicPlayer.Events;
 
-import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import static de.Kiwi.BattlePlayer.Inventory.BattlePlayerGUI.BattlePlayerINV;
+import static de.Kiwi.MusicPlayer.Inventory.BattlePlayerGUI.BattlePlayerINV;
 
 public class CMD_Open_GUI implements CommandExecutor {
     @Override

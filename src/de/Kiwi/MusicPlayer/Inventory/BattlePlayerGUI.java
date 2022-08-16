@@ -1,11 +1,10 @@
-package de.Kiwi.BattlePlayer.Inventory;
+package de.Kiwi.MusicPlayer.Inventory;
 
-import de.Kiwi.BattlePlayer.Config.ItemsConfigCreate.MusicManager;
-import de.Kiwi.BattlePlayer.Creator.SkullCreator;
+import de.Kiwi.MusicPlayer.Config.ItemsConfigCreate.MusicManager;
+import de.Kiwi.MusicPlayer.Creator.SkullCreator;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
@@ -42,6 +41,13 @@ public class BattlePlayerGUI {
         ItemMeta Close_Meta = Close.getItemMeta();
         Close_Meta.setDisplayName(ChatColor.RED + "Close");
         Close.setItemMeta(Close_Meta);
+
+        //Stop
+        String URL2 = "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdhNWM2MGEwZWRiNTZkZDUyYmI1NjhhZTA4NzAyYzNmYTRiMzM3MzM2ZWEyZDhiNmQ1OGM3YThmNjA4OGZhMiJ9fX0=";
+        ItemStack Stop = new ItemStack(SkullCreator.itemFromBase64(URL2));
+        ItemMeta Stop_Meta = Stop.getItemMeta();
+        Stop_Meta.setDisplayName(ChatColor.RED + "Stop");
+        Stop.setItemMeta(Stop_Meta);
 
 
 
@@ -164,6 +170,9 @@ public class BattlePlayerGUI {
                     break;
                 case 18:
                     PlayerINV.setItem(i,Close);
+                    break;
+                case 22:
+                    PlayerINV.setItem(i, Stop);
                     break;
                 case 26:
                     PlayerINV.setItem(i, Texture);

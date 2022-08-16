@@ -1,4 +1,4 @@
-package de.Kiwi.BattlePlayer.Config.SettingConfigCreate;
+package de.Kiwi.MusicPlayer.Config.SettingConfigCreate;
 
 import java.io.File;
 import java.io.IOException;
