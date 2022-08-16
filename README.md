@@ -21,7 +21,7 @@
 
 # Templates:
 ### ResourcePack: (Template by KiwiLetsPlay) https://www.dropbox.com/s/37ur77i68kplw1o/Kiwi%27sMusicPlayer%20ResourcePack%20Template.zip?dl=0 <br>
-### MusicSetting.yml (Template by KiwiLetsPlay)
+### MusicSettings.yml (Template by KiwiLetsPlay)
 ```yml
 # Kiwi's MusicPlayer
 
