@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class CreateSettings {
-        public static File dir = new File("plugins/Kiwi'sBattlePlayer");
+        public static File dir = new File("plugins/Kiwi'sMusicPlayer");
         public static File SetConfig = new File(dir.getPath() + "/Settings.yml");
 
 

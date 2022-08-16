@@ -9,7 +9,15 @@ public class SettingsManager {
     public static YamlConfiguration cfg = YamlConfiguration.loadConfiguration(CreateSettings.SetConfig);
 
     public static void Settings() {
-        cfg.options().header("Kiwi's MusicPlayer Settings\n");
+        cfg.options().header("Kiwi's MusicPlayer Settings\n\n\n"
+                + "Documentaion:" + "\n\n"
+                + "Chat.Message.Prefix " + "= Set the prefix for the chat" + "\n"
+                + "Chat.Message.Enable " + "= Enable/Disable the message in the chat" + "\n"
+                + "Chat.Message.Playing " + "= Set the chat message for now playing" + "\n\n"
+                + "Actionbar.Message.Enable " + "= Enable/Disable the message in the Actionbar" + "\n\n"
+                + "Custom.Texture.Enable " + "= Enable/Disable the button for the textures in the inventory" + "\n"
+                + "Custom.Texture.Source " + "= Set the texture pack link in inventory (Works only if Custom.Texture.Enable has been enabled)" + "\n\n"
+                + "Music.Sound.ID " + "= Set the sound for the id's (It is recommended not to change this if you are not familiar with sounds)" + "\n");
 
         cfg.set("Chat.Messages.Prefix","[&4Kiwis MusicPlayer&f]: ");
         cfg.set("Chat.Message.Enable", true);
