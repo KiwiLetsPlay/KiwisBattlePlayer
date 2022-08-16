@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Kiwi's BattlePlayer">
+    <output-path>$PROJECT_DIR$/../../../../../Local Host Server/1.19.2/plugins</output-path>
+    <root id="archive" name="Kiwi's BattlePlayer.jar">
+      <element id="module-output" name="Kiwi'sBattlePlayer" />
+    </root>
+  </artifact>
+</component>

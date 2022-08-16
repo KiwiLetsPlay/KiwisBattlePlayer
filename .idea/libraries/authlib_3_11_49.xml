@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="authlib-3.11.49">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Local Host Server/1.19.2/bundler/libraries/authlib-3.11.49.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
