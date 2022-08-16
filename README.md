@@ -87,5 +87,6 @@ Music:
 <br>
 
 ## How Create own ResourcePack?
+This video is not mine(Creative Commons)
 
 [![Watch the video](https://imgur.com/sv8GJjO.png)](https://youtu.be/Jj3p71WQSJk)
