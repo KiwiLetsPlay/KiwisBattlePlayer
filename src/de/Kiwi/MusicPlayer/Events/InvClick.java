@@ -38,7 +38,7 @@ public class InvClick implements Listener {
         }
         if (e.getCurrentItem().getItemMeta().getDisplayName().contains(ChatColor.GOLD + "Get The Resource Pack")) {
             if (SettingsManager.getbo("Custom.Texture.Enable")) {
-                p.setResourcePack("Custom.Texture.Source");
+               p.setResourcePack(SettingsManager.MusicDisc("Custom.Texture.Source"));
                 if (SettingsManager.getbo("Chat.Message.Enable")) {
                     p.sendMessage("Resourcepack has been downloaded");
                 }
