@@ -36,9 +36,12 @@ public class InvClick implements Listener {
         if (e.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.RED + "Close")) {
             e.setCancelled(true);
         }
-        if (e.getCurrentItem().getItemMeta().getDisplayName().contains(ChatColor.GOLD + "Get")) {
+        if (e.getCurrentItem().getItemMeta().getDisplayName().contains(ChatColor.GOLD + "Get The Resource Pack")) {
             if (SettingsManager.getbo("Custom.Texture.Enable")) {
-                p.setTexturePack("Custom.Texture.Source");
+                p.setResourcePack("Custom.Texture.Source");
+                if (SettingsManager.getbo("Chat.Message.Enable")) {
+                    p.sendMessage("Resourcepack has been downloaded");
+                }
             }else {
                 if (SettingsManager.getbo("Chat.Message.Enable")) {
                     p.sendMessage(prefix + "This was deactivated in the config by an admin");

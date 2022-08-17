@@ -28,7 +28,7 @@ public class InvClickID2 implements Listener {
         if (e.getCurrentItem().getItemMeta().getDisplayName().contains(ChatColor.GREEN + "Play")) {
             p.stopAllSounds();
             //p.stopSound(Sound.valueOf(SettingsManager.MusicDisc("Music.Sound."+ID)));
-            p.getWorld().playSound(p.getPlayer().getLocation(), Sound.valueOf(SettingsManager.MusicDisc("Music.Sound."+ID)), 10.0F, 1.0F);
+            p.playSound(p.getLocation(), Sound.valueOf(SettingsManager.MusicDisc("Music.Sound."+ID)), 10.0F, 1.0F);
             if (SettingsManager.getbo("Chat.Message.Enable")) {
                 p.sendMessage(prefix + SettingsManager.MusicDisc("Chat.Message.Playing")+ " " + ChatColor.DARK_AQUA + MusicManager.Text("Music."+ID+".Writer")+ ChatColor.WHITE + " - " + ChatColor.GOLD +  MusicManager.Text("Music." + ID + ".Name"));
             }
