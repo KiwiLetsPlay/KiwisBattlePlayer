@@ -34,6 +34,7 @@ public class InvClick implements Listener {
             e.setCancelled(true);
         }
         if (e.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.RED + "Close")) {
+            p.closeInventory();
             e.setCancelled(true);
         }
         if (e.getCurrentItem().getItemMeta().getDisplayName().contains(ChatColor.GOLD + "Get The Resource Pack")) {

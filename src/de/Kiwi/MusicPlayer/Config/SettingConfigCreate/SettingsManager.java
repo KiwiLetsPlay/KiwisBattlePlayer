@@ -18,7 +18,6 @@ public class SettingsManager {
                 + "Custom.Texture.Enable " + "= Enable/Disable the button for the textures in the inventory" + "\n"
                 + "Custom.Texture.Source " + "= Set the texture pack link in inventory (Works only if Custom.Texture.Enable has been enabled)" + "\n\n"
                 + "Music.Sound.ID " + "= Set the sound for the id's (It is recommended not to change this if you are not familiar with sounds)" + "\n");
-
         cfg.set("Chat.Messages.Prefix","[&4Kiwis MusicPlayer&f]: ");
         cfg.set("Chat.Message.Enable", true);
         cfg.set("Chat.Message.Playing", "Now playing");
