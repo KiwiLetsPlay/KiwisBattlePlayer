@@ -5,7 +5,7 @@
 ![alt text](https://imgur.com/YeuQgFA.png)
 </center>
 
-##Commands
+## Commands
 ###### /music
 
 ## How install:
