@@ -5,6 +5,9 @@
 ![alt text](https://imgur.com/YeuQgFA.png)
 </center>
 
+##Commands
+###### /music
+
 ## How install:
 ###### 1. Download the plugin via SpigotMM, then open the [plugins] folder.
 ###### 2. Now move the downloaded file to the folder (/plugins). 
